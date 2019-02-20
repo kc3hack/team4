@@ -15,5 +15,8 @@ func main() {
         r.GET("/animes", func(c *gin.Context){
             c.JSON(200, api.GetAnimes())
         })
+        r.GET("/sanctuaries", func(c *gin.Context){
+            c.JSON(200, api.GetSanctuaries())
+        })
         r.Run()
 }

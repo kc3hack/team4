@@ -13,7 +13,7 @@ func main() {
             c.String(200, api.GetApi())
         })
         r.GET("/animes", func(c *gin.Context){
-            c.String(200, api.Animes_list())
+            c.JSON(200, api.GetAnimes())
         })
         r.Run()
 }

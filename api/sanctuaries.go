@@ -24,5 +24,5 @@ type Sanctuary_detals struct{
 // 			Area_Name: "滋賀県犬上群豊郷町",
 // 			Url: "hoge",
 // 		},
-// 	}
-}
+	// }
+// }

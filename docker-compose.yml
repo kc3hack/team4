@@ -14,7 +14,7 @@ services:
     volumes:
       - "db-data:/var/lib/mysql"
   api:
-    links:
+    depends_on:
       - mysql
     build:
       context: .

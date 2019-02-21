@@ -61,7 +61,7 @@ func main() {
                     fmt.Print(err.Error())
                 }
             }
-            c.JSON(200, sanctuaries)
+            c.JSON(http.StatusOK, sanctuaries)
         })
         r.Run()
 }

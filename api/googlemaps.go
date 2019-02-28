@@ -7,7 +7,7 @@ import (
 )
 
 func MapsWithWayPoint(ori string, dest string, mode maps.Mode, way []string) []maps.Route{
-	c, err := maps.NewClient(maps.WithAPIKey("AIzaSyDvq_9Eg7Reuu83LQUIzu-e-tKZE7GkIj4"))
+	c, err := maps.NewClient(maps.WithAPIKey(""))
 	if err != nil {
 		log.Fatalf("fatal error1: %s", err)
 	}
